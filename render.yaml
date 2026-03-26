@@ -1,0 +1,23 @@
+# render.yaml
+# Configuración de despliegue automático en Render.com
+# Conecta este archivo a tu repositorio en https://dashboard.render.com
+
+services:
+  - type: web
+    name: milenio-cobertura-editorial
+    runtime: python
+    buildCommand: |
+      pip install -r requirements.txt
+      python -m spacy download es_core_news_sm
+    startCommand: streamlit run app/app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: LOG_LEVEL
+        value: INFO
+      - key: BERTOPIC_MIN_TOPIC_SIZE
+        value: "30"
+      - key: PV_CRITICO_ALTO
+        value: "5000"
+    plan: free
+    autoDeploy: true
