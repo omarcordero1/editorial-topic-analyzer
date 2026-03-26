@@ -1,0 +1,7 @@
+# Este directorio contiene los outputs generados por el pipeline.
+# Los archivos generados NO se versionan (ver .gitignore).
+# Outputs esperados:
+# - Milenio_Analisis_Completo.csv
+# - Milenio_Recomendaciones.csv
+# - analisis_editorial.png
+# - pipeline.log
