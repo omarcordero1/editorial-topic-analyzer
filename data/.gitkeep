@@ -1,0 +1,4 @@
+# Este directorio contiene los datasets de entrada.
+# Los archivos reales NO se versionan (ver .gitignore).
+# Formatos soportados: .xlsx, .csv
+# Columnas requeridas: titulo, seccion, Pv´s
