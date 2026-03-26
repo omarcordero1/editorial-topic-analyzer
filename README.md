@@ -1,4 +1,4 @@
-# 📰 Milenio Cobertura Editorial — Análisis Inteligente de Noticias
+# 📰 Cobertura Editorial — Análisis Inteligente de Noticias
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**Pipeline de análisis editorial que extrae temas, entidades y variables accionables a partir de coberturas periodísticas de Milenio.com.**
+**Pipeline de análisis editorial que extrae temas, entidades y variables accionables a partir de coberturas periodísticas**
 
 [🚀 Demo Live](#) · [📖 Documentación](#uso) · [🐛 Reportar Bug](https://github.com/omarcordero1/milenio-cobertura-editorial/issues)
 
